@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Input right username, wrong password then click login</description>
+   <name>Login with wrong Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e94ecce-af5e-4c40-a098-d570d50bb5dc</testCaseGuid>
+</TestCaseEntity>
