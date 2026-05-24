@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>ScenarioLogin</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>9ec1d904-f425-4277-9e55-d99deb87ce8c</testCaseGuid>
-</TestCaseEntity>
