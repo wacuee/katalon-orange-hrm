@@ -11,19 +11,19 @@ This project is an automation testing for the OrangeHRM Login feature & forgot p
 │ └── Forget Password Page/
 │      	└── FP-01 | Visit forgot password page |
 |      	└── FP-02 | Leave the input field and then click Reset Password button |
-| 	└── FP-03 | Input username that will be reseted and then click  Reset Password Button |
-|	└── FP-04 | Click Cancel button |
+| 	    └── FP-03 | Input username that will be reseted and then click  Reset Password Button |
+|	      └── FP-04 | Click Cancel button |
 |└── Login Page
-| 	└──LF-01 | Login with right Username & Password |
-| 	└──LF-02 | Login with wrong Username & Password |
-| 	└──LF-03 | Login with wrong Username   |
-| 	└──LF-04 | Inputing Empty Username and Password  |
+| 	    └──LF-01 | Login with right Username & Password |
+| 	    └──LF-02 | Login with wrong Username & Password |
+| 	    └──LF-03 | Login with wrong Username   |
+| 	    └──LF-04 | Inputing Empty Username and Password  |
 ├── Keywords/
 │ └── (default package)
 │      	└── BasePage.groovy
 |      	└── ForgetPassword.groovy
-| 	└── LoginScreen.groovy
-|	└── dashboard.groovy
+| 	    └── LoginScreen.groovy
+|	      └── dashboard.groovy
 ```
 
 # Test Scenarios
