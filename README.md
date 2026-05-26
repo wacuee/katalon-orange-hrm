@@ -43,3 +43,6 @@ This project is an automation testing for the OrangeHRM Login feature & forgot p
 | FP-02 | Leave the input field and then click Reset Password button |
 | FP-03 | Input username that will be reseted and then click  Reset Password Button |
 | FP-04 | Click Cancel button |
+
+Test cases and results https://docs.google.com/spreadsheets/d/1iYoe3HeEPzMC6tQOSPphBdZeRhBKeg1Tvq3-VyOXMDs/edit?usp=sharing
+
