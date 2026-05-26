@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start from forget password page then click on 'Cancel' button</description>
+   <name>FP-04 Click Cancel button</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96a6257c-c710-44d1-b05a-fc462f8b3c1b</testCaseGuid>
+</TestCaseEntity>

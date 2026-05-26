@@ -22,6 +22,8 @@ import internal.GlobalVariable
 public class ForgetPassword extends BasePage {
     private TestObject inputUsername
     private TestObject resetPass
+	private TestObject cancelBtn
+	private TestObject loginScreen
 
     public void visit() {
         WebUI.openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestPasswordResetCode")
@@ -29,9 +31,17 @@ public class ForgetPassword extends BasePage {
 
 	public ForgetPassword() {
 		inputUsername = createTestObject("//input[@name='username']")
+		resetPass=createTestObject("//button[@type='submit']")
+		cancelBtn=createTestObject("//button[@type='button']")
 	}
 
 	public resetPassword(String username) {
 		WebUI.setText(inputUsername, username)
+		WebUI.click(resetPass)
+	}
+	public void cancelButton()
+	{
+		WebUI.click(cancelBtn)
+		WebUI.verifyEqual(WebUI.getUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 	}
 }
