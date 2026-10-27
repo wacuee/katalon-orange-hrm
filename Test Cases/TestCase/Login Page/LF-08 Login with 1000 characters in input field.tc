@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LF-08 Login with 1000 characters in input field</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>wacue</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>wacue</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>ef8e6776-23e2-4317-83e7-9c0be47b17ba</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>ef8e6776-23e2-4317-83e7-9c0be47b17ba</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9a6798f9-5640-4df6-85c3-dff11a18ffeb</testCaseGuid>
+</TestCaseEntity>
