@@ -3,6 +3,20 @@
    <description>Input right username, wrong password then click login</description>
    <name>LF-03 Login with wrong Username</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>wacue</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>ef8e6776-23e2-4317-83e7-9c0be47b17ba</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0e94ecce-af5e-4c40-a098-d570d50bb5dc</testCaseGuid>

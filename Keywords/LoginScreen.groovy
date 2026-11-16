@@ -34,10 +34,24 @@ public class LoginScreen extends BasePage{
 		inputPassword = createTestObject("//input[@name='password']")
 		buttonnLogin = createTestObject("//button[@type='submit']")
 		noInput=createTestObject("//*[contains(@class,'oxd-input-field-error-message')]")
-		invalidCredentials=createTestObject("//*[contains(@class,'oxd-alert oxd-alert--error')]")
+		invalidCredentials=createTestObject("//*[contains(@class,'oxd-alert-content-text')]")
 		forgetPasswordLink=createTestObject("//*[contains(@class,'orangehrm-login-forgot-header')]")
 	}
-
+	public void inputUsername(String username){
+		WebUI.setText(inputUsername, username)
+	}
+	
+	public void inputPassword(String password){
+		WebUI.setText(inputPassword, password)
+	}
+	
+	public void btnClick(){
+	WebUI.click(buttonnLogin)	
+	}
+	public void verifyLogin() {
+		WebUI.verifyEqual(WebUI.getUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
+	}
+	
 	public login(String username, String password) {
 		WebUI.waitForElementVisible(landingLogin , 3)
 		WebUI.setText(inputUsername, username)
@@ -59,8 +73,7 @@ public class LoginScreen extends BasePage{
 		WebUI.click(buttonnLogin)
 		WebUI.waitForElementVisible(noInput, 1)
 	}
-	public void forgetLink()
-	{
+	public void forgetLink() {
 		WebUI.click(forgetPasswordLink)
 		WebUI.verifyEqual(WebUI.getUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestPasswordResetCode")
 	}

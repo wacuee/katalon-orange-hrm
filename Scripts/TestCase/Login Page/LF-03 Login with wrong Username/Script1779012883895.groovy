@@ -20,5 +20,5 @@ import org.openqa.selenium.Keys as Keys
 LoginScreen loginScreen = new LoginScreen()
 
 WebUI.openBrowser("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
-loginScreen.login("Admin", "admin123d")
+loginScreen.loginFail("Admina", "admin123d")
 

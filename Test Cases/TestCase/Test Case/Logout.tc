@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LF-14 Login with SQL injection in Password</name>
+   <name>Logout</name>
    <tag></tag>
    <integratedEntity>
       <productName>TESTOPS</productName>
@@ -27,5 +27,5 @@
    </integratedEntity>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e9157d80-53dd-4293-887a-c1950eb9ddc3</testCaseGuid>
+   <testCaseGuid>5bea57c3-3389-4bb9-a07d-3eef6d44b598</testCaseGuid>
 </TestCaseEntity>

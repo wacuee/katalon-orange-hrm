@@ -44,4 +44,9 @@ public class ForgetPassword extends BasePage {
 		WebUI.click(cancelBtn)
 		WebUI.verifyEqual(WebUI.getUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 	}
+	public inputField(String username)
+	{
+		WebUI.setText(inputUsername, username)
+		WebUI.click(resetPass)
+	}
 }
