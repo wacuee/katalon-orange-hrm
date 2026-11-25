@@ -76,5 +76,6 @@ public class LoginScreen extends BasePage{
 	public void forgetLink() {
 		WebUI.click(forgetPasswordLink)
 		WebUI.verifyEqual(WebUI.getUrl(),"https://opensource-demo.orangehrmlive.com/web/index.php/auth/requestPasswordResetCode")
+		
 	}
 }

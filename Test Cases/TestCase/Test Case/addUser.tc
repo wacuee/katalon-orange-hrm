@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>addUser</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>wacue</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>wacue</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>ef8e6776-23e2-4317-83e7-9c0be47b17ba</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>ef8e6776-23e2-4317-83e7-9c0be47b17ba</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d1a2ee5c-e74d-4e1a-a16a-1085fa9915f1</testCaseGuid>
+</TestCaseEntity>

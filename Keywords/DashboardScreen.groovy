@@ -22,9 +22,11 @@ public class DashboardScreen extends BasePage {
 	
 	private TestObject profile
 	private TestObject logoutBtn
+
 	public DashboardScreen() {
 		profile=createTestObject("//*[contains(@class,'oxd-userdropdown-tab')]")
 		logoutBtn=createTestObject("//a[contains(text(),'Logout')]")
+
 	}
 	
 	public void verifyDashboard() {
@@ -37,4 +39,5 @@ public class DashboardScreen extends BasePage {
 	public void logoutClick() {
 		WebUI.click(logoutBtn)
 	}
+
 }
